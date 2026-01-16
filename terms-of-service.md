@@ -127,8 +127,7 @@ These Terms, together with our Privacy Policy, constitute the entire agreement b
 ## 17. Contact Information
 
 For questions about these Terms, please contact us at:
-- **Email:** [contact@aicyteadev.com](mailto:contact@aicyteadev.com)
-- **Developer Website:** [https://aicyteadev.com](https://aicyteadev.com)
+- **Email:** [muhamadwildanfaz@gmail.com](mailto:muhamadwildanfaz@gmail.com)
 
 ## 18. Acknowledgment
 
