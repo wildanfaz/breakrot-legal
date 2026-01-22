@@ -57,7 +57,7 @@ The Application integrates with:
 - **Firebase Firestore** (cloud storage)
 - **Google Mobile Ads (AdMob)** (ads and rewarded unlocks)
 
-Your use of these services is subject to their terms and policies.
+Your use of these services is subject to their terms and policies. Ads may be required to unlock certain optional features.
 
 ## 10. Modifications to the Application
 We may modify or discontinue the Application or update these Terms at any time. Continued use means acceptance of changes.

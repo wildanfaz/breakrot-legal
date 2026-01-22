@@ -15,7 +15,10 @@ We access Android Usage Stats to provide core features such as screen time summa
 
 **Important:** Usage data is processed and stored **locally on your device**. We do not upload raw usage stats to our servers.
 
-### 2) Account & Profile Data (if you sign in)
+### 2) Installed Apps List
+To let you select monitored apps, the app reads the list of installed applications (package names and labels). This list is used locally for display and selection.
+
+### 3) Account & Profile Data (if you sign in)
 If you sign in with Google, we store:
 - Display name
 - Email address
@@ -23,7 +26,7 @@ If you sign in with Google, we store:
 
 This data is used for authentication and to associate your cloud data with your account.
 
-### 3) App Settings & Preferences (local)
+### 4) App Settings & Preferences (local)
 We store your preferences locally on your device, including:
 - Monitored apps selection
 - Daily limits
@@ -32,7 +35,7 @@ We store your preferences locally on your device, including:
 - Language preference
 - Onboarding status
 
-### 4) Cloud Data (Firebase Firestore)
+### 5) Cloud Data (Firebase Firestore)
 If signed in, we sync limited data to Firebase Firestore for backup and multi‑device access. This may include:
 - Monitored apps configuration and limits
 - Focus activities (description, duration, timestamp)
@@ -40,12 +43,16 @@ If signed in, we sync limited data to Firebase Firestore for backup and multi‑
 - User goals
 - User settings (daily limit, notifications, focus reminders, sound choice)
 - Subscription status (if applicable)
+- Basic profile data (name/email)
 
-### 5) Ads & Monetization
-We use Google Mobile Ads (AdMob) to show interstitial and rewarded ads. AdMob may collect device identifiers and ad interaction data according to Google’s policies.
+### 6) Ads & Monetization
+We use Google Mobile Ads (AdMob) to show interstitial and rewarded ads. AdMob may collect device identifiers (such as the Advertising ID) and ad interaction data according to Google’s policies. Rewarded ads may unlock features (e.g., filters or music) for the session.
 
-### 6) Help/Support Submissions
+### 7) Help/Support Submissions
 If you submit a help/support request, we store the content you provide and basic metadata (timestamp). In current builds, help requests are stored locally.
+
+### 8) Analytics
+We do **not** use analytics SDKs in the current build.
 
 ## How We Use Your Information
 We use your information to:
@@ -60,6 +67,8 @@ We use your information to:
 We do **not** sell your personal data. We may share data only with:
 - **Google/Firebase** for authentication and cloud storage
 - **Google Mobile Ads (AdMob)** for ad delivery and measurement
+
+We do not share your raw usage statistics with third parties.
 
 These providers process data under their own policies.
 
