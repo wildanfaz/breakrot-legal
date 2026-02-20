@@ -1,6 +1,6 @@
 # Terms of Service for BreakRot
 
-**Last Updated:** January 23, 2026
+**Last Updated:** February 21, 2026
 
 ## 1. Acceptance of Terms
 By downloading, installing, or using BreakRot (the “Application”), you agree to these Terms of Service (“Terms”). If you do not agree, do not use the Application.
@@ -10,6 +10,7 @@ BreakRot provides:
 - Screen time tracking and monitored apps
 - Usage summaries and daily limits
 - Break reminders and notifications
+- App blocking overlay when monitored apps exceed their time limits (optional, requires Display Over Other Apps permission)
 - Focus timer sessions and history
 - Daily quests and streak tracking
 - Optional cloud sync (requires sign‑in)
@@ -29,7 +30,7 @@ You agree NOT to:
 
 ## 5. User Responsibilities
 ### 5.1 Permissions
-You are responsible for granting required permissions (e.g., Usage Access, Notifications). The Application may not function without them.
+You are responsible for granting required permissions (e.g., Usage Access, Notifications, Display Over Other Apps for the Block Apps feature). The Application may not function fully without them.
 
 ### 5.2 Configuration
 You are responsible for setting limits and reminders that fit your personal needs.
@@ -55,9 +56,10 @@ You agree to indemnify and hold harmless aicyteadev and its affiliates from clai
 The Application integrates with:
 - **Firebase Authentication** (Google sign‑in)
 - **Firebase Firestore** (cloud storage)
-- **Google Mobile Ads (AdMob)** (ads and rewarded unlocks)
+- **Firebase App Check** (security and integrity verification)
+- **Google Mobile Ads (AdMob)** (interstitial and rewarded ads)
 
-Your use of these services is subject to their terms and policies. Ads may be required to unlock certain optional features.
+Your use of these services is subject to their terms and policies. Non‑Pro users may see interstitial ads when navigating between screens or after completing actions (e.g., stopping a focus timer, returning from detail screens). Rewarded ads may unlock certain optional features for the session.
 
 ## 10. Modifications to the Application
 We may modify or discontinue the Application or update these Terms at any time. Continued use means acceptance of changes.

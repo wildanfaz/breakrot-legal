@@ -1,9 +1,9 @@
 # Privacy Policy for BreakRot
 
-**Last Updated:** January 23, 2026
+**Last Updated:** February 21, 2026
 
 ## Introduction
-BreakRot ("we," "our," or "us") is a digital wellness application designed to help you manage screen time and build healthier usage habits. This Privacy Policy explains how we collect, use, store, and share information when you use the app.
+BreakRot ("we," "our," or "us") is a digital wellness application designed to help you manage screen time, block distracting apps, and build healthier usage habits. This Privacy Policy explains how we collect, use, store, and share information when you use the app.
 
 ## Information We Collect
 
@@ -46,7 +46,7 @@ If signed in, we sync limited data to Firebase Firestore for backup and multi‑
 - Basic profile data (name/email)
 
 ### 6) Ads & Monetization
-We use Google Mobile Ads (AdMob) to show interstitial and rewarded ads. AdMob may collect device identifiers (such as the Advertising ID) and ad interaction data according to Google’s policies. Rewarded ads may unlock features (e.g., filters or music) for the session.
+We use Google Mobile Ads (AdMob) to show interstitial and rewarded ads. AdMob may collect device identifiers (such as the Advertising ID) and ad interaction data according to Google’s policies. Interstitial ads may be shown when navigating between screens (e.g., returning from detail screens or stopping a focus timer) for non‑Pro users. Rewarded ads may unlock features (e.g., filters or music) for the session.
 
 ### 7) Help/Support Submissions
 If you submit a help/support request, we store the content you provide and basic metadata (timestamp). In current builds, help requests are stored locally.
@@ -57,7 +57,7 @@ We do **not** use analytics SDKs in the current build.
 ## How We Use Your Information
 We use your information to:
 - Show your screen time and usage summaries
-- Enforce monitored app limits and send reminders
+- Enforce monitored app limits, send reminders, and optionally block apps that exceed limits
 - Save and display focus sessions and quests
 - Provide account features and cloud sync (if signed in)
 - Serve ads and unlock ad‑gated features
@@ -75,7 +75,8 @@ These providers process data under their own policies.
 ## Permissions We Request
 - **Usage Access (PACKAGE_USAGE_STATS):** required for screen time tracking.
 - **Notification Permission:** required for reminders and focus alerts.
-- **Foreground Service:** required for background monitoring and timers.
+- **Foreground Service:** required for background monitoring, timers, and app‑blocking overlay.
+- **Display Over Other Apps (SYSTEM_ALERT_WINDOW):** required for the Block Apps feature to show a fullscreen overlay when a monitored app exceeds its time limit.
 - **Query All Packages:** required to list installed apps for monitoring.
 - **Read Media Audio / Storage (Android 13+ / older):** required for custom notification sounds.
 - **Receive Boot Completed:** to restart monitoring after device reboot.
